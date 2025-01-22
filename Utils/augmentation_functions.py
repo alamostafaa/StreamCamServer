@@ -1,6 +1,8 @@
 import numpy as np
 import cv2
 
+from Utils.constants import AUGMENTATION_FUNCTIONS
+
 
 def motion_blur(img, size=30, angle=45):
     """this function adds motion blur noise to image to camera shake effect
